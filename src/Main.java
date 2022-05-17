@@ -1,14 +1,14 @@
 public class Main {
     public static void main(String[] args) {
         //Задание 1
-        byte a = 1;
-        short b = 2;
-        int c = 3;
-        long d = 4;
-        float e = 5.5f;
-        double f = 4.678;
-        char g = 126;
-        boolean h = 10>5;
+        byte a1 = 1;
+        short b1 = 2;
+        int c1 = 3;
+        long d1 = 4;
+        float e1 = 5.5f;
+        double f1 = 4.678;
+        char g1 = 126;
+        boolean h1 = 10>5;
 
         //Задание 2
         float boxerOneWeight = 78.2f;
@@ -54,5 +54,28 @@ public class Main {
         System.out.println("Маша теперь получает " + increaseMasha + " рублей. Годовой доход вырос на " + yearMasha + " рублей");
         System.out.println("Денис теперь получает " + increaseDenis + " рублей. Годовой доход вырос на " + yearDenis + " рублей");
         System.out.println("Кристина теперь получает " + increaseKristina + " рублей. Годовой доход вырос на " + yearKristina + " рублей");
+
+        //Задача 6
+        int a = 12;
+        int b = 27;
+        int c = 44;
+        int d = 15;
+        int e = 9;
+        int result = a * (b+(c-d*e));
+        result = result - result * 2 ;
+        System.out.println(result);
+
+        //Задача 7
+        int a2 = 5;
+        int b2 = 7;
+        a2 = a2 + b2;
+        b2 = a2 - b2;
+        a2 = a2 - b2;
+        System.out.println("a = " + a2 + "; b = " + b2);
+
+        //Задача 8
+        int a3 = 523;
+        int b3 = a3 / 10 % 10;
+        System.out.println(b3);
     }
 }
