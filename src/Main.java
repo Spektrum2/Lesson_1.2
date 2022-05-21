@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        task5();
+        task3();
     }
     public static void task1(){
         byte a1 = 1;
@@ -29,8 +29,8 @@ public class Main {
         int milkGram = milk / 100 * 105;
         int iceCreamGram = iceCream * 100;
         int eggsGram = eggs * 70;
-        float WeightAll = bananasGram + milkGram + iceCreamGram + eggsGram;
-        float kg = WeightAll / 1000;
+        int WeightAll = bananasGram + milkGram + iceCreamGram + eggsGram;
+        float kg = (float) WeightAll / 1000;
         System.out.println("Вес спорт-завтрака " + WeightAll + " гр!");
         System.out.println("Вес спорт-завтрака " + kg + " кг!");
     }
